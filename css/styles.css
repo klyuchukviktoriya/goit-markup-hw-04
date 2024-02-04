@@ -53,7 +53,6 @@ img {
   margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 120px;
-  max-width: 1440px;
 }
 
 /*! ---------Navigation------------- */
@@ -317,8 +316,11 @@ img {
   height: 40px;
 }
 
-.team-item:hover .link,
-.team-item:focus .link {
+.team-item:hover .link {
+  background-color: #404bbf;
+}
+
+.team-item .link:focus {
   background-color: #404bbf;
 }
 
@@ -424,10 +426,10 @@ img {
 .footer .container {
   display: flex;
   align-items: baseline;
+  margin-top: 102px;
 }
 
 .logo-info {
-  margin-top: 102px;
   margin-right: 120px;
 }
 
@@ -437,7 +439,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   width: 264px;
-  /*margin-right: 120px;*/
+  margin-bottom: 16px;
 }
 
 .footer .logo {
@@ -462,7 +464,6 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
   font-weight: 500;
-  margin-top: 100px;
   margin-bottom: 16px;
 }
 
