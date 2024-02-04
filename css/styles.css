@@ -323,11 +323,6 @@ img {
   background-color: #404bbf;
 }
 
-.team-item:hover .link,
-.team-item:focus .link {
-  background-color: #404bbf;
-}
-
 .team-item .link {
   background-color: #4d5ae5;
   display: flex;
@@ -443,6 +438,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   width: 264px;
+  /*margin-right: 120px;*/
 }
 
 .footer .logo {
@@ -458,7 +454,7 @@ img {
   display: block;
 }
 
-.footer .text {
+.text {
   color: #ffffff;
   display: block;
   font-size: 16px;
@@ -475,11 +471,12 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 16px;
+  justify-content: center;
 }
 
 .icon-item {
-  justify-content: center;
-  gap: 16px;
+  /*justify-content: center;*/
+  /*gap: 16px;*/
 }
 
 .footer .link {
@@ -491,7 +488,7 @@ img {
   height: 100%;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
 
 }
 .footer .link:focus,
