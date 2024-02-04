@@ -430,11 +430,11 @@ img {
 .footer .container {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
 .logo-info {
   margin-top: 102px;
-  margin-right: 120px;
 }
 
 .footer-info {
@@ -454,8 +454,8 @@ img {
   color: #f4f4fd;
 }
 
-.footer-icon-container {
-  display: inline;
+.social-container {
+  display: block;
 }
 
 .text {
