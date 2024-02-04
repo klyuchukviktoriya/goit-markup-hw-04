@@ -454,6 +454,10 @@ img {
   color: #f4f4fd;
 }
 
+.footer-icon-container {
+  display: inline;
+}
+
 .text {
   color: #ffffff;
   display: block;
