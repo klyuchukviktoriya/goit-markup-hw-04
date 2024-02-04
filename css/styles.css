@@ -430,11 +430,11 @@ img {
 .footer .container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .logo-info {
   margin-top: 102px;
+  margin-right: 120px;
 }
 
 .footer-info {
@@ -458,7 +458,7 @@ img {
   display: block;
 }
 
-.text {
+.footer .text {
   color: #ffffff;
   display: block;
   font-size: 16px;
@@ -472,7 +472,7 @@ img {
 }
 
 .footer .icon-list {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 16px;
 }
