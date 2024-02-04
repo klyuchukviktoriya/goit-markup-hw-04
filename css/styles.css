@@ -305,17 +305,22 @@ img {
   margin-bottom: 8px;
 }
 
-.icon-list {
+.team .icon-list {
   display: flex;
-  gap: 24px;
   justify-content: center;
   align-items: center;
+  gap: 24px;
   margin-bottom: 32px;
 }
 
 .icon-item {
   width: 40px;
   height: 40px;
+}
+
+.team-item:hover .link,
+.team-item:focus .link {
+  background-color: #404bbf;
 }
 
 .team-item:hover .link,
@@ -358,7 +363,6 @@ img {
   row-gap: 48px;
   column-gap: 24px;
 }
-/*!----------------ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg--------*/
 
 .portfolio-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -429,6 +433,7 @@ img {
 }
 
 .logo-info {
+  margin-top: 102px;
   margin-right: 120px;
 }
 
@@ -449,18 +454,26 @@ img {
   color: #f4f4fd;
 }
 
-.footer-icon-container {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
+.text {
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-bottom: 16px;
 }
 
-.icon-list {
+.footer .icon-list {
+  display: inline-flex;
+  align-items: flex-start;
   gap: 16px;
 }
 
 .icon-item {
-  display: flex;
   justify-content: center;
   gap: 16px;
 }
@@ -474,6 +487,7 @@ img {
   height: 100%;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 16px;
 
 }
 .footer .link:focus,
@@ -484,14 +498,4 @@ img {
   justify-content: center;
   align-items: center;
 }
-.text {
-  color: #ffffff;
-  display: block;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
+
