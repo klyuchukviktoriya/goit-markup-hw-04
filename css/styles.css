@@ -53,6 +53,7 @@ img {
   margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 120px;
+  flex-shrink: 0;
 }
 
 /*! ---------Navigation------------- */
@@ -308,7 +309,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-bottom: 32px;
 }
 
 .icon-item {
@@ -426,7 +426,6 @@ img {
 .footer .container {
   display: flex;
   align-items: baseline;
-  margin-top: 102px;
 }
 
 .logo-info {
@@ -439,7 +438,6 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   width: 264px;
-  margin-bottom: 16px;
 }
 
 .footer .logo {
