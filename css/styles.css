@@ -13,7 +13,7 @@ body {
   background-color: #ffffff;
   font-weight: 400;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -60,7 +60,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -75,7 +76,7 @@ img {
 
 .logo {
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -124,7 +125,7 @@ img {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  content: '';
+  content: "";
 }
 
 .contacts {
@@ -160,7 +161,11 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/peopleoffice.jpg);
 }
 
 .banner-title {
@@ -185,7 +190,7 @@ img {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
@@ -280,7 +285,9 @@ img {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-container {
@@ -366,7 +373,9 @@ img {
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .cover-container {
@@ -495,4 +504,124 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*! Backdrop */
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+.modal {
+  width: 408px;
+  min-height: 584px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  border-radius: 4px;
+  background-color: #fcfcfc;
+
+  padding: 24px;
+
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background-color: #E7E9FC;
+  width: 24px;
+height: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.modal-close-icon {
+}
+.modal-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.form {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.modal-label {
+}
+.textarea {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
+  resize: none;
+}
+
+.textarea {
+
+}
+
+
+.modal-send-button {
+  background-color: #4D5AE5;
+  min-width: 169px;
+  color:  #FFF;
+  text-align: center;
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 16px 32px;
+cursor: pointer;
+  display: block;
+  margin: 0 auto;
+align-items: flex-start;
+gap: 10px;
+border: none;
+}
+.modal-checkbox-icon {
+}
+.modal-email-icon {
+}
+.modal-phone-icon {
+}
+.modal-person-icon {
+}
+
+/*input:checked {
+	box-shadow: 0 0 0 2px orangered;
+  outline: 2px solid #2196f3;
+  outline-offset: 202px;
 }
